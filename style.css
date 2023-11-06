@@ -59,6 +59,39 @@ h1 {
     0 0 100px #1240e6;
 }
 
+h4 {
+  
+  position: absolute;
+  top:93%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Sanserif";
+  font-size: 1.5vh;
+  color: rgb(246, 246, 242);
+  text-align: center;
+  font-weight: 1000;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h5 {
+  
+  position: absolute;
+  top:95%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Sanserif";
+  font-size: 1.5vh;
+  color: rgb(246, 246, 242);
+  text-align: center;
+  font-weight: 1000;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
 h3 {
   position: absolute;
@@ -99,9 +132,9 @@ h3 {
   text-shadow: 
     0 0 7px #fff,
     0 0 10px #fff,
-    0 0 42px  #e6127c,
-    0 0 77px #e6127c,
-    0 0 100px #e6127c;
+    0 0 42px  #fff,
+    0 0 77px #fff,
+    0 0 100px #fff;
 }
 
 
@@ -123,9 +156,9 @@ h2 {
   text-shadow: 
   0 0 7px #fff,
   0 0 10px #fff,
-  0 0 42px  #12e627,
-  0 0 77px #12e627,
-  0 0 100px #12e627;  
+  0 0 42px  #fff,
+  0 0 77px #fff,
+  0 0 100px #fff;  
 }
 
 
