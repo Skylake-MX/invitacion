@@ -29,17 +29,17 @@ canvas{display:block}
 
 .musica{
   position: absolute;
-  top: 40%;
+  top: 39%;
   width: 100%;
   height: 57%;
-  opacity: 27%;
+  opacity: 30%;
 }
 
 
 h1 {
   
   position: absolute;
-  top:20%;
+  top:15%;
   left: 50%;
   width: 80%;
   transform: translate(-50%, -50%);
@@ -95,7 +95,7 @@ h5 {
 
 h3 {
   position: absolute;
-  top:27%;
+  top:23%;
   left: 50%;
   width: 80%;
   transform: translate(-50%, -50%);
@@ -117,7 +117,7 @@ h3 {
 
 .timer {
   position: absolute;
-  top: 45%;
+  top: 42%;
   left: 50%;
   width: 80%;
   transform: translate(-50%, -50%);
@@ -141,7 +141,7 @@ h3 {
 
 h2 {
   position: absolute;
-  top: 37%;
+  top: 33%;
   left: 50%;
   width: 100%;
   text-align: center;
@@ -179,7 +179,7 @@ h2 {
 }
 
 #floatingImage{
-  height: 20%;
+  height: 21%;
   position: absolute;
   left: -20px;
   bottom: 0;
@@ -188,7 +188,7 @@ h2 {
 }
 
 #floatingImage2{
-  height: 22%;
+  height: 24%;
   position: absolute;
   right: -30px;
   bottom: 0;
@@ -202,7 +202,7 @@ h2 {
   top: 60%; /* Coloca la parte superior de la imagen en el 50% del contenedor padre */
   left: 50%; /* Coloca la izquierda de la imagen en el 50% del contenedor padre */
   transform: translate(-50%, -50%); /* Centra la imagen en ambas direcciones */
-  height: 20%;
+  height: 25%;
   opacity: 80%;
   filter: drop-shadow(5px 10px 10px gray);
 }
