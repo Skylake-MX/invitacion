@@ -91,6 +91,7 @@ h5 {
   font-weight: 1000;
   -webkit-user-select: none;
   user-select: none;
+
 }
 
 h3 {
@@ -180,14 +181,17 @@ h2 {
 
 #floatingImage{
   height: 20%;
+  top: 70%;
   position: absolute;
   left: -20px;
   bottom: 0;
   animation: floatImage 7s linear forwards;
   filter: drop-shadow(3px 3px 3px rgb(144, 126, 126));  
+  overflow: hidden;
 }
 
 #floatingImage2{
+  top: 69%;
   height: 22%;
   position: absolute;
   right: -30px;
@@ -195,6 +199,7 @@ h2 {
   transform: scaleX(-1);
   animation: floatImage 7s linear forwards;
   filter: drop-shadow(3px 3px 3px rgb(144, 126, 126));  
+  overflow: hidden;
 }
 
 .fotografia{
@@ -249,7 +254,7 @@ h2 {
 
 @keyframes floatImage {
   0% {
-    transform: translateY(50%);
+    transform: translateY(0%);
   }
   100% {
     transform: translateY(-150%);
@@ -258,7 +263,7 @@ h2 {
 
 @keyframes floatImage2 {
   0% {
-    transform: translateY(50%);
+    transform: translateY(0%);
   }
   100% {
     transform: translateY(-150%);
